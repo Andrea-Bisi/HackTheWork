@@ -1,0 +1,84 @@
+{
+    "Industry (extractive, manufacturing, energy and waste management)": [
+        "Agriculture",
+        "Forestry",
+        "Paper and paper products",
+        "Fishing",
+        "Coal",
+        "Printing",
+        "Manufactured fuels",
+        "Oil and Gas",
+        "Other mining",        
+        "Optical & electronic equip",
+        "Electrical equipment",
+        "Other machinery & equipment",
+        "Motor Vehicles",
+        "Other chemicals",
+        "Pharmaceuticals",
+        "Rubber and plastic products",
+        "Non-metallic mineral products",
+        "Electricity",
+        "Basic metals",
+        "Metal products",
+        "Manufacturing nes",
+        "Trade and repair of motor vehicles",
+        "Wood and wood products"
+    ],
+    "Construction": [
+        "Repair & installation of machinery",
+        "Architectural & engineering",
+        "Gas, steam & air conditioning",
+        "Water supply",
+        "Sewerage and waste",
+        "Construction"
+    ],
+    "Wholesale, transportation, accomodation and food service activities": [
+        "Food, Drink & Tobacco",
+        "Other Transport Equipment",        
+        "Other wholesale trade",
+        "Land transport",
+        "Water Transport",
+        "Air Transport",
+        "Warehousing",
+        "Postal and courier activities",
+        "Accommodation & Catering",
+        "Other retail trade",
+        "Textiles, Clothing & Leather"
+    ],
+    "Information and communication": [
+        "Publishing activities",
+        "Motion picture and broadcasting activities",
+        "Advertising",
+        "Telecommunications",
+        "Arts and entertainment activities",
+        "Computer programming, info serv"
+    ],
+    "Financial and insurance activities": [
+        "Financial services",
+        "Insurance",        
+        "Rental and leasing activities",
+        "Auxiliary to financial & insurance activities",
+        "Real estate activities"
+    ],
+    "Specialized activities and support service activities": [
+        "Other professional activities",        
+        "Legal and accounting",
+        "Research & Development",
+        "Human health activities",
+        "Residential care and social work"
+    ],
+    "Administrative and support service activities": [
+        "Travel agency, tour operators",
+        "Security and office administrative",
+        "Public administration and defence",
+        "Education"
+    ],
+    "Other activities": [
+        "Employment activities",
+        "Sports activities",
+        "Membership organisations",
+        "Repair of household goods",
+        "Other personal service activities",
+        "Households as employers of domestic personnel"
+    ]
+}

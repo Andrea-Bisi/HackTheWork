@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Dependencies
+@import '~bootstrap-table/dist/bootstrap-table.min.css';
+@import '~select2/dist/css/select2.min.css';
+@import '~highcharts/css/highcharts.css';
+
+
+.nav-active{
+    font-weight: bold;
+}
+.increased-width{
+    @media (min-width: 1200px){
+        max-width: 100%;
+    }
+}
+
+.data-chart-section{
+    padding: 0 15px;
+}
+
+.data-chart{
+    padding: 15px 0;
+}

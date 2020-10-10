@@ -1,0 +1,36 @@
+<div class="col-xl-12">
+    <div class="data-chart-section">
+        <div>
+            <!-- Filter -->
+            <search-bar-filter
+                :filters="filters"
+                :search-params="searchParams">
+                <div class="col-md-auto" style="margin-top: 30px;">
+                    <button id="search-bar-button" class="btn btn-sm btn-primary search-button search-bar-button" @click.prevent="search">
+                        Search
+                    </button>
+                </div>
+            </search-bar-filter>
+        </div>
+        <!-- Chart -->
+        <div :class="charts[0].class">
+                <header>
+                    <h3>
+                        {{ charts[0].title }}
+                    </h3>
+                </header>
+                <chart
+                        :search-params="searchParams"
+                        :button-search-clicks="buttonSearchClicks"
+                        :chart="charts[0]">
+                </chart>
+        </div>
+    </div>
+    <!-- Table -->
+    <div v-for="table in tables" :class="table.class" style="margin-top: 20px;">
+        <table-component
+            :search-params="searchParams"
+            :table="table">
+        </table-component>
+    </div>
+</div>

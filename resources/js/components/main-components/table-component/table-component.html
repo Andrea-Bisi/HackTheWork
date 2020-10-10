@@ -1,0 +1,21 @@
+<div :id="getContainerId()">
+    <table
+        :id="table.id"
+        class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th v-for="column in table.columns"
+                :class="getColumnClass(column)"
+                :data-align="column.align"
+                :data-sortable="column.sortable"
+                :data-visible="column.visible"
+                :data-field="column.field"
+                :data-sort-name="column.sortname"
+                v-html="column.title">
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
